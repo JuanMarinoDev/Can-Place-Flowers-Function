@@ -15,16 +15,18 @@ Given an integer array `flowerbed` containing `0`'s and `1`'s, where `0` means e
 *Output:* `true`
 
 *Explanation:*
-- **Before planting flowers**
-- **After planting flowers**
+- Before planting any flowers: `[1,0,0,0,1]` → 🌻🟫🟫🟫🌻
+- After planting `n = 1` flower: `[1,0,1,0,1]` → 🌻🟫🌻🟫🌻
+- *Bottom line: There is space to plant 1 flower without violating the no-adjacent-flowers rule. Therefore, the output is true.*
 
-#### ***Example 1:***
+#### ***Example 2:***
 
 *Input:* `flowerbed = [1,0,0,0,1], n = 1`
 
 *Output:* `true`
 
 *Explanation:*
-- **Before planting flowers**
-- **After planting flowers**
+- Before planting any flowers: `[1,0,0,0,1]` → 🌻🟫🟫🟫🌻
+- After planting `n = 1` flower: `[1,0,1,0,1]` → 🌻🟫🌻🟫🌻
+- *Bottom line: It is only possible to plant 1 flower without violating the no-adjacent-flowers rule. Therefore, the output is true.*
 
